@@ -1,0 +1,9 @@
+<h2>Список групп</h2>
+
+<ul>
+  {% for group in groups %}
+    <li>{{ group.name }}</li>
+  {% empty %}
+    <li>Групп пока нет</li>
+  {% endfor %}
+</ul>
