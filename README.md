@@ -63,6 +63,7 @@ manage.py # точка запуска
 ##  Запуск проекта
 
 ```
+pip install requirements.txt
 python manage.py runserver
 ```
 
